@@ -1,9 +1,19 @@
-# Listing (ls is Omarchy's eza -lh)
-alias l='ls'
-alias ll='ls'
-alias la='ls -a'
+# Shared by bash (Omarchy) and zsh (macOS).
 
-# Git (ga/gd are Omarchy worktree helpers; gcm/gcam/gcad already exist)
+# Listing: eza when available (Omarchy has it; brew install eza on macOS)
+if command -v eza >/dev/null 2>&1; then
+  alias l='eza -lh --group-directories-first --icons=auto'
+else
+  alias l='ls -lh'
+fi
+alias ll='l'
+alias la='l -a'
+
+# Git (ga/gd are left alone: they are Omarchy's worktree helpers)
+alias g='git'
+alias gcm='git commit -m'
+alias gcam='git commit -a -m'
+alias gcad='git commit -a --amend'
 alias gs='git status -sb'
 alias gdf='git diff'
 alias gds='git diff --staged'
