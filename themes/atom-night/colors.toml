@@ -1,0 +1,32 @@
+# Atom Night: Tokyo Night structure, retuned toward Atom Dark.
+mode = "dark"
+
+accent = "#96cbfe"
+selection = "#373b41"
+muted = "#4b4e55"
+
+background = "#1d1f21"
+dark_background = "#161719"
+darker_background = "#111213"
+lighter_background = "#282a2e"
+
+foreground = "#c5c8c6"
+dark_foreground = "#7c7c7c"
+light_foreground = "#d6d8d6"
+bright_foreground = "#eaeaea"
+
+red = "#ff6c60"
+yellow = "#ffffb6"
+orange = "#e9c062"
+green = "#a8ff60"
+cyan = "#8ae2e6"
+blue = "#96cbfe"
+magenta = "#ff73fd"
+brown = "#7a5a45"
+
+bright_red = "#ff8b82"
+bright_yellow = "#ffffcc"
+bright_green = "#ceffab"
+bright_cyan = "#a8eef0"
+bright_blue = "#b5dcff"
+bright_magenta = "#ff9cfe"

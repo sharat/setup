@@ -1,0 +1,32 @@
+# Atom Light: Atom One Light palette.
+mode = "light"
+
+accent = "#4078f2"
+selection = "#e5e5e6"
+muted = "#a0a1a7"
+
+background = "#fafafa"
+dark_background = "#f0f0f1"
+darker_background = "#e5e5e6"
+lighter_background = "#eaeaeb"
+
+foreground = "#383a42"
+dark_foreground = "#a0a1a7"
+light_foreground = "#4f525e"
+bright_foreground = "#232324"
+
+red = "#e45649"
+yellow = "#c18401"
+orange = "#986801"
+green = "#50a14f"
+cyan = "#0184bc"
+blue = "#4078f2"
+magenta = "#a626a4"
+brown = "#7a4a1a"
+
+bright_red = "#ca1243"
+bright_yellow = "#d19a00"
+bright_green = "#3e953a"
+bright_cyan = "#0997b3"
+bright_blue = "#2f5ee0"
+bright_magenta = "#b751b6"
